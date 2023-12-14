@@ -1,0 +1,14 @@
+{
+  "Employee": [
+    {
+      "name": "Rachel green",
+      "designation": "Fashion Consultant",
+      "id": "1"
+    },
+    {
+      "name": "Pheebe Buffay",
+      "designation": "Designer",
+      "id": "2"
+    }
+  ]
+}

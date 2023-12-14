@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App {
+  text-align: center;
+}
+
+
+nav ul{
+  display: flex;
+  gap: 20px;
+  color: white;
+  list-style-type:none;
+  background-color: rgb(154, 65, 236)
+ 
+}
+
+nav ul li a{
+  color: rgb(255, 255, 255);
+  text-decoration: inherit;
+}
+
+.form{
+  border-radius: 20px;
+  margin: auto;
+  padding: 30px;
+  align-items: center;
+  display: flex;
+flex-direction: column;
+height: 100px;
+gap: 10px;
+width: 300px;
+background-color: rebeccapurple;
+}
+
+input{
+  width: 100%;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  height: 35px;
+}
+
+input:focus-visible{
+  outline-color: #0565ff;
+}
+.listItem{
+  max-width: fit-content;
+  padding: 5px;
+  border: 2px solid rebeccapurple;
+  border-radius: 10px;
+ list-style-type: none;
+
+}
+
+.employeeData{
+  border: 2px solid rebeccapurple;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
